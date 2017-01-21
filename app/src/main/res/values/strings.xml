@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Popular Movies</string>
+    <string name="no_results">Sorry, I found no movies</string>
+    <string name="api_key_missing">You need to insert your API KEY in MainActivity.onCreate</string>
+    <string name="no_connection_available">No internet connection available, please check it</string>
+    <string name="menu_sort">Sort</string>
+    <string name="details_title">Title</string>
+    <string name="details_release_date_label">Release Date</string>
+    <string name="details_release_date">2017-01-23</string>
+    <string name="details_vote_average_label">Vote Average</string>
+    <string name="details_vote_average">23.556</string>
+    <string name="details_plot_synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet congue mauris. Mauris ut fringilla mi. Nunc blandit arcu eget congue pharetra. Ut eu leo dui. Fusce mi leo, euismod sed semper congue, interdum porta arcu. Donec venenatis mi sed nibh placerat dictum. Suspendisse ut tristique felis. Nullam id placerat ex, at congue velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ultrices est non tellus imperdiet tempor. Donec non sem rutrum ipsum pretium lacinia sed non lacus. Nunc tincidunt dui eu imperdiet faucibus. Donec laoreet tortor in neque eleifend fermentum. Ut ut ipsum mattis orci tincidunt sagittis sit amet vitae sem. Aliquam volutpat dictum scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Mauris rutrum varius sem, vel consectetur urna mollis vel. Praesent tincidunt nisl ac neque commodo, et facilisis magna semper. Morbi risus lectus, rutrum vel imperdiet eget, fringilla nec ante. Integer fringilla ut erat in dignissim. Nullam sed tincidunt ante, vel aliquam eros. Quisque accumsan, sapien non dignissim tincidunt, dui odio tristique diam, non interdum sapien turpis eget turpis. Donec non nunc nunc. Fusce sit amet lacus erat. Donec at neque euismod, laoreet enim at, suscipit diam. Duis bibendum purus.</string>
+    <string name="no_api_key_set">Insert the API KEY, please</string>
+    <string name="details_content_description">Refresh icon</string>
 </resources>

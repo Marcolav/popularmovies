@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,8 +11,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.marcolav.popularmovies.MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/menu_no_data_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_no_data"
+            android:textSize="32sp"
+            android:text="@string/no_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:src="@android:drawable/ic_popup_sync"
+            android:onClick="refreshConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/details_content_description"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/main_progress_bar"
+        android:visibility="invisible"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-</RelativeLayout>
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

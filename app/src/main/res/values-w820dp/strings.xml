@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_results">Sorry, I found no movies</string>
+    <string name="api_key_missing">You need to insert your API KEY in MainActivity.onCreate</string>
+    <string name="no_connection_available">No internet connection available, please check it</string>
+    <string name="menu_sort">Sort</string>
+</resources>
