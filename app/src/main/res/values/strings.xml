@@ -9,7 +9,44 @@
     <string name="details_release_date">2017-01-23</string>
     <string name="details_vote_average_label">Vote Average</string>
     <string name="details_vote_average">23.556</string>
-    <string name="details_plot_synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet congue mauris. Mauris ut fringilla mi. Nunc blandit arcu eget congue pharetra. Ut eu leo dui. Fusce mi leo, euismod sed semper congue, interdum porta arcu. Donec venenatis mi sed nibh placerat dictum. Suspendisse ut tristique felis. Nullam id placerat ex, at congue velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ultrices est non tellus imperdiet tempor. Donec non sem rutrum ipsum pretium lacinia sed non lacus. Nunc tincidunt dui eu imperdiet faucibus. Donec laoreet tortor in neque eleifend fermentum. Ut ut ipsum mattis orci tincidunt sagittis sit amet vitae sem. Aliquam volutpat dictum scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Mauris rutrum varius sem, vel consectetur urna mollis vel. Praesent tincidunt nisl ac neque commodo, et facilisis magna semper. Morbi risus lectus, rutrum vel imperdiet eget, fringilla nec ante. Integer fringilla ut erat in dignissim. Nullam sed tincidunt ante, vel aliquam eros. Quisque accumsan, sapien non dignissim tincidunt, dui odio tristique diam, non interdum sapien turpis eget turpis. Donec non nunc nunc. Fusce sit amet lacus erat. Donec at neque euismod, laoreet enim at, suscipit diam. Duis bibendum purus.</string>
+    <string name="details_plot_synopsis">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Integer sit amet congue mauris.
+        Mauris ut fringilla mi. Nunc blandit arcu eget congue pharetra.
+        Ut eu leo dui. Fusce mi leo, euismod sed semper congue,
+        interdum porta arcu. Donec venenatis mi sed nibh placerat dictum.
+        Suspendisse ut tristique felis. Nullam id placerat ex, at congue velit.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+        per inceptos himenaeos. Fusce ultrices est non tellus imperdiet tempor.
+        Donec non sem rutrum ipsum pretium lacinia sed non lacus. Nunc tincidunt
+        dui eu imperdiet faucibus. Donec laoreet tortor in neque eleifend fermentum.
+        Ut ut ipsum mattis orci tincidunt sagittis sit amet vitae sem. Aliquam volutpat
+        dictum scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Mauris rutrum varius sem, vel consectetur urna mollis vel.
+        Praesent tincidunt nisl ac neque commodo, et facilisis magna semper.
+        Morbi risus lectus, rutrum vel imperdiet eget, fringilla nec ante.
+        Integer fringilla ut erat in dignissim. Nullam sed tincidunt ante,
+        vel aliquam eros. Quisque accumsan, sapien non dignissim tincidunt,
+        dui odio tristique diam, non interdum sapien turpis eget turpis. Donec non nunc nunc.
+        Fusce sit amet lacus erat. Donec at neque euismod, laoreet enim at, suscipit diam.
+        Duis bibendum purus.</string>
     <string name="no_api_key_set">Insert the API KEY, please</string>
     <string name="details_content_description">Refresh icon</string>
+    <string name="api_key_default">Put your api key here</string>
+    <string name="click_instructions">Click the image to view the trailer</string>
+    <string name="details_trailers_text">Trailers</string>
+    <string name="details_reviews_text">Reviews</string>
+    <string name="trailers_title">Title of the movie</string>
+    <string name="trailer_name">Name of the trailer</string>
+    <string name="trailer_details">Trailer - 720 - Youtube</string>
+    <string name="details_no_trailers">No trailers available</string>
+    <string name="details_no_reviews">Still no reviews</string>
+    <string name="review_go_to_original_site">Visit original site</string>
+    <string name="review_content">Content of the review</string>
+    <string name="review_author">A review by %1$s</string>
+    <string name="review_title">Movie title</string>
+    <string name="details_favourite">Favourite</string>
+    <string name="insert_favourite_ok">Movie added to favourites</string>
+    <string name="insert_favourite_fail">Error adding the movie</string>
+    <string name="remove_favourite_ok">Movie removed from favourites</string>
+    <string name="remove_favourite_fail">Error removing the movie</string>
 </resources>

@@ -8,7 +8,9 @@
     <ImageButton
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@android:drawable/ic_dialog_alert"
         android:backgroundTint="@color/white"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/placeholder"
         android:id="@+id/bt_poster"/>
 </LinearLayout>
